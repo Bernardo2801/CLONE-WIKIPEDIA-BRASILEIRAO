@@ -1,0 +1,81 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul { list-style: none; padding-left: 5px; }
+a { color:blue; text-decoration: none;}
+.bar {
+    background-color: #f9f9fb;
+    padding:15px;
+    border-top: solid 1px #cdcdcd;
+    border-bottom: solid 1px #cdcdcd;
+}
+.content {
+    max-width: 1440px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "sidebar main anchors";
+    grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.footer {
+    min-height: 100px;
+    border-top: solid 1px #cdcdcd;
+}
+.anchors {
+    border-left: solid 1px #cdcdcd;
+    padding-left: 15px;
+}
+.sidebar {
+    border-right: solid 1px #cdcdcd;
+}
+figure {
+    text-align: center;
+}
+table{
+    border: solid 1px black;
+    border-collapse: collapse;
+
+}
+th{
+    color: #0d0d23;
+    background-color: #c8f804;
+    width: 500px;
+    height: 40px;
+}
+td{
+    color: #0d0d23;
+    background-color: lightcyan;
+    text-align: center;
+    height: 50px;
+    border-top: 1px solid #0d0d23;
+}
+#left{
+    text-align: left;
+    width: 1000px;
+    padding: 5px;
+}
+#defeats{
+    color: red;
+}
+#left2{
+    text-align: left;
+    padding: 5px;
+}
+.stadium{
+    border: 1px solid #0d0d23;
+}
+#escalation{
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    background-color: lightcyan;
+}
+
